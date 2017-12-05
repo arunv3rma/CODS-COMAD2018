@@ -1,2 +1,0 @@
-# CODS-COMAD2018
-Code
