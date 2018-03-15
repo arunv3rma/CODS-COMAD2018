@@ -248,7 +248,7 @@ for c in range(len(synthetic_classifiers)):
 
 # Reading Synthetically generated Contextual Data
 path_to_data = getcwd() + "/input/syntheticDataset/"
-fileName = path_to_data + "data_50000_2.csv"
+fileName = path_to_data + "data_5000_2.csv"
 data_samples = pd.read_csv(fileName, header=None)
 data_samples[len(data_samples.columns)] = 1
 data_points = len(data_samples)
